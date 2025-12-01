@@ -1,1 +1,21 @@
+.demo{
+    background-color: rgb(248, 248, 168);
+    color: rgb(81, 36, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.button{
+    background-color: rgb(81, 36, 1);
+    color:  rgb(248, 248, 168);
+}
+
+.button:hover, .button:focus{
+     background-color:  rgb(248, 248, 168);
+    color:  rgb(81, 36, 1);
+
+}
+
+.close{
+    color: rgb(248, 248, 168);;
+    font-size: small;
+}
