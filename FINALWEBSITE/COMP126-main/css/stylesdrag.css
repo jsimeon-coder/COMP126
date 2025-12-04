@@ -167,7 +167,17 @@ h2{
   .watch{
     width: 50%;
   }
-
+    
+  .buttoninwatch{
+    width: 70%;
+    justify-self: center;
+  }
+    
+  .textunderbutton{
+    width: 70%;
+    justify-self: center;
+  }
+    
   .map {
     display: grid;
     grid-template-columns: 2fr 1fr;
