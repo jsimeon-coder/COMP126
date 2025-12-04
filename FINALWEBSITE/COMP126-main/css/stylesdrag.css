@@ -63,7 +63,7 @@ body{
 
 .dragintro{
     background-color: rgb(231, 231, 153);;
-    width: 90%;
+    width: 70%;
     justify-self: center;
     text-align: center;
     margin: 20px;
@@ -105,12 +105,10 @@ h2{
 
 .buttoninwatch{
     background-color: rgb(237, 0, 126);
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
     margin: 10px;
-    align-items: center;
-    
-    
+    justify-self: center;    
 }
 
 .buttoninwatch a{
@@ -167,17 +165,17 @@ h2{
   .watch{
     width: 50%;
   }
-    
+
   .buttoninwatch{
     width: 70%;
     justify-self: center;
   }
-    
+
   .textunderbutton{
     width: 70%;
     justify-self: center;
   }
-    
+
   .map {
     display: grid;
     grid-template-columns: 2fr 1fr;
