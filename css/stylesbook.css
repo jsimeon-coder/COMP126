@@ -1,20 +1,18 @@
 .demo{
-    background-color: rgb(248, 248, 168);
+    background-color: rgb(255, 255, 205);
     color: rgb(81, 36, 1);
-    font-family: "Bodoni Moda", serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
-    font-family: "Bodoni Moda", serif;
-}
 .button{
-    background-color:  rgb(248, 248, 168);
-    color:  rgb(81, 36, 1);
+    background-color: rgb(81, 36, 1);
+    color:  rgb(248, 248, 168);
 }
 
 .button:hover, .button:focus{
-    background-color: rgb(81, 36, 1);
-    color:  rgb(248, 248, 168);
+    background-color:  rgb(248, 248, 168);
+    color:  rgb(81, 36, 1);
+
 }
 
 .close{
@@ -33,6 +31,7 @@ body{
     font-style: normal;
     text-align: center;
     color: rgba(53, 24, 1, 0.527);
+    margin-bottom: 0px;
 
 }
 
@@ -46,6 +45,7 @@ body{
 .bookgallery {
     display: flex;
     flex-direction: column;
+    margin-top: -50px;
 }
 
 .book {
@@ -59,6 +59,15 @@ body{
 }
 
 .book:not(:hover) {
+  animation: popIn 0.5s forwards;
+}
+
+.album:hover {
+  animation: popOut 0.5s forwards;
+  z-index: 10;
+}
+
+.album:not(:hover) {
   animation: popIn 0.5s forwards;
 }
 
@@ -100,6 +109,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 }
 
@@ -137,4 +147,23 @@ body{
     transform: scale(1);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   }
+}
+
+.album {
+  width: 50vh;
+  height: 50vh;
+}
+
+.logo {
+  width: 30px;
+}
+
+.musiclogos {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.musiclogos li {
+  margin-left: 5px;
 }
